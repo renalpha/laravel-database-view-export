@@ -11,7 +11,7 @@ use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithStrictNullComparison;
 use Maatwebsite\Excel\Excel;
 
-final class ViewExport implements FromCollection, WithHeadings, WithStrictNullComparison
+class ViewExport implements FromCollection, WithHeadings, WithStrictNullComparison
 {
     use Exportable;
 
